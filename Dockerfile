@@ -10,7 +10,7 @@ RUN apt-get update && \
         && rm -rf /var/lib/apt/lists/*
 
 # Additional steps to customize your image
-RUN apt-get install curl
+RUN apt install curl
 #
 # Set the default command to run when the container starts
 CMD ["/bin/bash"]
