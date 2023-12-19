@@ -7,11 +7,9 @@ ENV DEBIAN_FRONTEND noninteractive
 # Update the package lists and install necessary packages
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-        && rm -rf /var/lib/apt/lists/*
-
+        curl 
 # Additional steps to customize your image
-RUN apt install curl
+#RUN apt-get install
 #
 # Set the default command to run when the container starts
 CMD ["/bin/bash"]
-#
