@@ -34,8 +34,8 @@ Replace your-image-name and your-tag with the actual name and tag you used durin
 ### Customization
 Feel free to customize the Dockerfile to include any additional packages or configurations required for your specific use case. Ensure that you understand the impact on image size and functionality.
 
-### Contributing
+### Contributing
 If you find issues or have improvements to suggest, please open an issue or submit a pull request. Contributions are welcome!
 
-### License
+### License
 This project is licensed under the MIT License.
