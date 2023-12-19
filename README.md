@@ -18,13 +18,12 @@ Replace latest with the desired tag if you want a specific version.
 To build the Docker image locally, you can use the following command:
 
 ```bash
-Copy code
 docker build -t your-image-name:your-tag .
 ```
 
 Replace your-image-name and your-tag with the desired name and tag for your Docker image.
 
-### Run a Container
+### Run a Container
 Once you have the image, you can run a container using the following:
 
 ```bash
